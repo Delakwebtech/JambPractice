@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "examinationNumber": "221001",
+    "password": "Doe001"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "examinationNumber": "221002",
+    "password": "Johnson002"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "examinationNumber": "221003",
+    "password": "Smith003"
+  }
+]
