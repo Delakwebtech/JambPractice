@@ -21,7 +21,7 @@ exports.protect = async (req, res, next) => {
 
   try {
     // Verify token
-    const decoded = jwt.verify(token, '1q2w3e4r123@');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     // Check if the user is an admin
     const isAdmin = await admin.findById(decoded.id);
